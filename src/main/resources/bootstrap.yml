@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      enabled: true
+    consul:
+      config:
+        enabled: false
+        format: properties
+        uri: http://localhost:8500
